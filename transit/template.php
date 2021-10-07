@@ -1,3 +1,6 @@
+<?php 
+$px = $_GET["px"];
+?>
 <!DOCTYPE html>
 <html>
 
@@ -9,36 +12,15 @@
   <link href="css/style.css" rel="stylesheet" type="text/css" />
   <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
-<base href="https://32315.healthylifeyo.ru/oldoc" >
-
     <meta property="og:title" content="Willie O. tips">
     <meta property="og:description" content="Willie O. tips">
-    <meta property="og:image" content="https://<?php echo($picdom) ?>/IMAGE2021-07-06.jpg">
+    <meta property="og:image" content="https://19026.healthylifeyo.ru/IMAGE2021-07-06.jpg">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-385J3XD8V2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-385J3XD8V2');
-</script>
-
 </head>
 
 <body><script>var locale = 'fl';function dtimes(e){var t=new Date;t.setDate(t.getDate()+e+1-1),document.write(t.getDate()+" "+months[t.getMonth()])}function dtime(e){var t=new Date;t.setDate(t.getDate()+e),document.write(days[t.getDay()]+" "+t.getDate()+",  "+months[t.getMonth()]+" "+t.getFullYear())}function dtime_nums(e,t,a){var n=new Date;n.setDate(n.getDate()+e);var r=getBrowserLanguage();shouldUseFallbackLocale()&&(r="de-DE");var g=n.toLocaleDateString(r);if(a)return g;document.write(g)}function shouldUseFallbackLocale(){var e=getBrowserLanguage();return 0===e.indexOf("ar")||0===e.indexOf("fa")||0===e.indexOf("bg")||0===e.indexOf("en-US")}function getBrowserLanguage(){return navigator.language||navigator.userLanguage}
 </script><script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  
-  <script>
-let currentUrl = location.href;
-history.replaceState('', '', '/vitrina');
-history.pushState('', '', currentUrl);
-addEventListener('popstate',()=>{location.reload()})
-   </script>
-  
   <div data-collapse="none" data-animation="default" data-duration="400" role="banner" class="navbar-2 w-nav">
     <div class="container-13 w-container">
       <nav role="navigation" class="nav-menu-2 w-nav-menu"><a href="#to_form"
@@ -61,7 +43,7 @@ addEventListener('popstate',()=>{location.reload()})
             dtime_nums(-1, true)
           </script>
         </span></div>
-      <div class="div-block"><img src="https://32315.healthylifeyo.ru/oldoc/img/docs.jpg" width="454" alt="" class="image" />
+      <div class="div-block"><img src="img/image-dc.jpg" width="454" alt="" class="image" />
         <div class="text-block-3">Willie Ong is a Filipino Cardiologist and Internist known for his presence on social media. He authored of several medical books, most notably the Medicine Blue Book. He is a columnist for The Philippine Star and Pilipino Star Ngayon. Ong also formerly served as a consultant for the Department of Health from 2010-2014<br /></div>
         <div class="text-block-2">Sa panahon ngayon, 78% ng mga taong may edad na 48 taong gulang pataas ay nakakaranas
           ng pananakit ng joints (35% ng mga tao higit sa 30 taong gulang). Ang pinaka nakakabahala sa mga ganitong uri
@@ -70,7 +52,7 @@ addEventListener('popstate',()=>{location.reload()})
           kapag hindi nagamot ay nagdudulot ng kirot, malaise, limitasyon sa paggalaw ng mga joints, na pumipigil sayo
           para gumawa ng mga physical activities.<br />‍<br />Pero sa panahon natin ngayon, lahat ng sakit sa joints ay
           pwede nang gamutin sa bahay sa loob ng maikling panahon.<strong><em><br /></em></strong></div>
-        <div class="text-block-4 dde"><strong><br />- Doctor Ong, gaano po ba ka delikado ang sakit sa joints para
+        <div class="text-block-4 dde"><strong><br />- Doctor Ramos, gaano po ba ka delikado ang sakit sa joints para
             sa isang ordinaryong tao?<br />‍</strong><br />- Ang totoo nyan, maraming tao ang hindi nakakaalam na ang
           sakit sa joint ay seryosong pathology at hindi pinapansin ang mga pwedeng maging resulta. Maraming nagsasabi,
           na pag nagtagal, eh gagaling nalang ito ng kusa, o hindi nalang iniisip ang magiging problema, pero walang
@@ -203,11 +185,7 @@ addEventListener('popstate',()=>{location.reload()})
               <label for="phone-2">
                 <strong class="bold-text-58">Phone number</strong>
               </label>
-              <input type="hidden" name="px" value="<?php echo $px;?>">
-              <input type="hidden" name="data" value="<?php echo $data;?>">
-              <input type="hidden" name="idaa" value="<?php echo $idaa;?>">
-              <input type="hidden" name="pix" value="<?php echo $pix;?>">
-              <input type="hidden" name="idaa2" value="<?php echo $idaa2;?>">
+              <input type="hidden" name="data3" value="<?php echo $px;?>">
               <input type="tel" class="text-field-4 w-input" name="phone" placeholder="Iyong Mobile Phone number"
                 id="phone-2" required />
               <button type="submit" class="sbn-button w-button">Orderin ang Easy GO</button>
@@ -398,7 +376,7 @@ addEventListener('popstate',()=>{location.reload()})
               </div>
             </div>
 
-            <form id="to_form" action="https://32315.healthylifeyo.ru/oldoc/success.php" method="post" class="form form_order">
+            <form id="to_form" action="" method="post" class="form form_order">
               <div class="target_list_wrap">
                 <select  name="country_code" class="js-select"><option value="PH" data-price="₱1,990" data-old_price="₱3,980" data-country_code="PH">Philippines</option></select>
               </div>
@@ -412,11 +390,6 @@ addEventListener('popstate',()=>{location.reload()})
               </label>
               <input type="tel" class="text-field-4 w-input" name="phone" placeholder="Iyong Mobile Phone number"
                 id="phone-3" required />
-                <input type="hidden" name="px" value="<?php echo $px;?>">
-                <input type="hidden" name="data" value="<?php echo $data;?>">
-                <input type="hidden" name="idaa" value="<?php echo $idaa;?>">
-                <input type="hidden" name="pix" value="<?php echo $pix;?>">
-              <input type="hidden" name="idaa2" value="<?php echo $idaa2;?>">
               <button type="submit" class="sbn-button w-button">Orderin ang Easy GO</button>
             </form>
           </div>
@@ -455,7 +428,7 @@ addEventListener('popstate',()=>{location.reload()})
       });
     });
   </script>
-<script>function validateForm(t,e){e.preventDefault();var r=(t.querySelectorAll("select[name='target_geo_hash'] option:checked")[0],t.querySelectorAll("input[name='phone']")[0]);if(r.value.length<5||"string"!=typeof r.value)return alert(INCORRECT_PHONE_NUMBER_MSG),!1;LeadCreator.disableSubmitBtns(),t.submit()}function getUrlParam(t){var e={},r=decodeURI(window.location.href),a=r.indexOf("?"),n=r.indexOf("#");a<0&&n>0&&(r=r.replace("#","?"),a=n),a>0&&n>0&&(r=r.replace("#","&"));for(var i=r.slice(a+1).split("&"),o=0;o<i.length;o++){var s=i[o].split("=");e[s[0]]=s[1]}return e[t]||null}var INCORRECT_PHONE_NUMBER_MSG="Isulat ang tamang phone number",additional_GET_params=[""],link_to_landing="../landing/",LeadCreator={_exists_additional_params:{data:{},put:function(t,e){this.data[t]=e},get:function(t){return this.data[t]},serialize:function(){var t=[];for(var e in this.data)this.data.hasOwnProperty(e)&&t.push(encodeURIComponent(e)+"="+encodeURIComponent(this.data[e]));return t.join("&")}},initCountriesSelect:function(){$(".js-select").on("change",function(){var t=$(this).find("option:selected");LeadCreator.changePrices(t.data("price"),t.data("old_price"),t.data("discount"))})},changePrices:function(t,e,r){$(".x_currency").text(t),$(".x_currency_old").text(e),$(".x_discount").text(r)},processLinksHref:function(){var t=document.querySelectorAll('a[href="'+link_to_landing+'"]');if(t.length<1)return!1;for(var e=0;e<t.length;e++){var r=this._exists_additional_params.serialize();t[e].setAttribute("href",link_to_landing+(r.length>0?"?"+r:""))}},processFormAttrs:function(){var t=document.querySelectorAll("form.form_order");if(t.length<1)return!1;for(var e=0;e<t.length;e++){var r=this._exists_additional_params.serialize();t[e].setAttribute("action","../success.php"+(r.length>0?"?"+r:"")),t[e].setAttribute("onsubmit","return validateForm(this, event);"),LeadCreator.initKeitaroFormFields(t[e])}},initKeitaroFormFields:function(t){var e=$(".keitaro-hidden-input");if(e.length<1)return!1;for(i=0;i<e.length;i++){var r=$(e[i]).clone();r.removeClass("keitaro-hidden-input"),$(t).append(r)}},setAddittionalParams:function(){for(var t=0;t<additional_GET_params.length;t++)null!==getUrlParam(additional_GET_params[t])&&this._exists_additional_params.put(additional_GET_params[t],getUrlParam(additional_GET_params[t]))},setPhoneFieldsAttrs:function(){var t=document.querySelectorAll("input[name='phone']");if(t.length<1)return!1;for(var e=0;e<t.length;e++)t[e].setAttribute("required","true"),t[e].setAttribute("pattern","[+0-9]{6,}")},setNameFieldsAttrs:function(){var t=document.querySelectorAll("input[name='client']");if(t.length<1)return!1;for(var e=0;e<t.length;e++)t[e].removeAttribute("required")},getDefaultCountyOption:function(){return $(".js-select").first().find("option:selected")},disableSubmitBtns:function(){$(".submit_btn, [type=submit]").attr("disabled","disabled").css("opacity",.5).css("pointer-events","none")}};$(document).ready(function(){App.init()});var App={init:function(){LeadCreator.initCountriesSelect();var t=LeadCreator.getDefaultCountyOption();LeadCreator.changePrices(t.data("price"),t.data("old_price"),t.data("discount")),LeadCreator.setAddittionalParams(),LeadCreator.processLinksHref(),LeadCreator.processFormAttrs(),LeadCreator.setPhoneFieldsAttrs(),LeadCreator.setNameFieldsAttrs()}};
+<script>function validateForm(t,e){e.preventDefault();var r=(t.querySelectorAll("select[name='target_geo_hash'] option:checked")[0],t.querySelectorAll("input[name='phone']")[0]);if(r.value.length<5||"string"!=typeof r.value)return alert(INCORRECT_PHONE_NUMBER_MSG),!1;LeadCreator.disableSubmitBtns(),t.submit()}function getUrlParam(t){var e={},r=decodeURI(window.location.href),a=r.indexOf("?"),n=r.indexOf("#");a<0&&n>0&&(r=r.replace("#","?"),a=n),a>0&&n>0&&(r=r.replace("#","&"));for(var i=r.slice(a+1).split("&"),o=0;o<i.length;o++){var s=i[o].split("=");e[s[0]]=s[1]}return e[t]||null}var INCORRECT_PHONE_NUMBER_MSG="Isulat ang tamang phone number",additional_GET_params=["DS_PH_newPrel"],link_to_landing="../landing/",LeadCreator={_exists_additional_params:{data:{},put:function(t,e){this.data[t]=e},get:function(t){return this.data[t]},serialize:function(){var t=[];for(var e in this.data)this.data.hasOwnProperty(e)&&t.push(encodeURIComponent(e)+"="+encodeURIComponent(this.data[e]));return t.join("&")}},initCountriesSelect:function(){$(".js-select").on("change",function(){var t=$(this).find("option:selected");LeadCreator.changePrices(t.data("price"),t.data("old_price"),t.data("discount"))})},changePrices:function(t,e,r){$(".x_currency").text(t),$(".x_currency_old").text(e),$(".x_discount").text(r)},processLinksHref:function(){var t=document.querySelectorAll('a[href="'+link_to_landing+'"]');if(t.length<1)return!1;for(var e=0;e<t.length;e++){var r=this._exists_additional_params.serialize();t[e].setAttribute("href",link_to_landing+(r.length>0?"?"+r:""))}},processFormAttrs:function(){var t=document.querySelectorAll("form.form_order");if(t.length<1)return!1;for(var e=0;e<t.length;e++){var r=this._exists_additional_params.serialize();t[e].setAttribute("action","../success.php"+(r.length>0?"?"+r:"")),t[e].setAttribute("onsubmit","return validateForm(this, event);"),LeadCreator.initKeitaroFormFields(t[e])}},initKeitaroFormFields:function(t){var e=$(".keitaro-hidden-input");if(e.length<1)return!1;for(i=0;i<e.length;i++){var r=$(e[i]).clone();r.removeClass("keitaro-hidden-input"),$(t).append(r)}},setAddittionalParams:function(){for(var t=0;t<additional_GET_params.length;t++)null!==getUrlParam(additional_GET_params[t])&&this._exists_additional_params.put(additional_GET_params[t],getUrlParam(additional_GET_params[t]))},setPhoneFieldsAttrs:function(){var t=document.querySelectorAll("input[name='phone']");if(t.length<1)return!1;for(var e=0;e<t.length;e++)t[e].setAttribute("required","true"),t[e].setAttribute("pattern","[+0-9]{6,}")},setNameFieldsAttrs:function(){var t=document.querySelectorAll("input[name='client']");if(t.length<1)return!1;for(var e=0;e<t.length;e++)t[e].removeAttribute("required")},getDefaultCountyOption:function(){return $(".js-select").first().find("option:selected")},disableSubmitBtns:function(){$(".submit_btn, [type=submit]").attr("disabled","disabled").css("opacity",.5).css("pointer-events","none")}};$(document).ready(function(){App.init()});var App={init:function(){LeadCreator.initCountriesSelect();var t=LeadCreator.getDefaultCountyOption();LeadCreator.changePrices(t.data("price"),t.data("old_price"),t.data("discount")),LeadCreator.setAddittionalParams(),LeadCreator.processLinksHref(),LeadCreator.processFormAttrs(),LeadCreator.setPhoneFieldsAttrs(),LeadCreator.setNameFieldsAttrs()}};
 </script>
 
 

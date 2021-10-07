@@ -1,0 +1,50 @@
+[08-Jul-2021 14:03:33 Europe/Moscow] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/lhrkhjti/19020.healthylifeyo.ru/PublisherApi.php on line 14
+[08-Jul-2021 14:04:19 Europe/Moscow] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/lhrkhjti/19020.healthylifeyo.ru/PublisherApi.php on line 18
+[08-Jul-2021 14:06:23 Europe/Moscow] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/lhrkhjti/19020.healthylifeyo.ru/PublisherApi.php on line 18
+[08-Jul-2021 14:07:28 Europe/Moscow] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/lhrkhjti/19020.healthylifeyo.ru/PublisherApi.php on line 18
+[08-Jul-2021 14:07:30 Europe/Moscow] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/lhrkhjti/19020.healthylifeyo.ru/PublisherApi.php on line 18
+[08-Jul-2021 14:07:40 Europe/Moscow] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/lhrkhjti/19020.healthylifeyo.ru/PublisherApi.php on line 17
+[08-Jul-2021 14:10:32 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/lhrkhjti/19020.healthylifeyo.ru/PublisherApi.php on line 10
+[08-Jul-2021 14:12:10 Europe/Moscow] PHP Parse error:  syntax error, unexpected ';', expecting function (T_FUNCTION) in /home/lhrkhjti/19020.healthylifeyo.ru/PublisherApi.php on line 22
+[08-Jul-2021 14:16:28 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$subdom' (T_VARIABLE) in /home/lhrkhjti/19020.healthylifeyo.ru/PublisherApi.php on line 48
+[08-Jul-2021 14:23:57 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$subdom' (T_VARIABLE) in /home/lhrkhjti/19020.healthylifeyo.ru/PublisherApi.php on line 51
+[08-Jul-2021 14:37:13 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$subdom' (T_VARIABLE) in /home/lhrkhjti/19020.healthylifeyo.ru/PublisherApi.php on line 51
+[08-Jul-2021 14:37:42 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$subdom' (T_VARIABLE) in /home/lhrkhjti/19020.healthylifeyo.ru/PublisherApi.php on line 51
+[08-Jul-2021 14:37:44 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$subdom' (T_VARIABLE) in /home/lhrkhjti/19020.healthylifeyo.ru/PublisherApi.php on line 51
+[08-Jul-2021 14:38:28 Europe/Moscow] PHP Parse error:  syntax error, unexpected ';', expecting function (T_FUNCTION) in /home/lhrkhjti/19020.healthylifeyo.ru/PublisherApi.php on line 19
+[08-Jul-2021 14:39:15 Europe/Moscow] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/lhrkhjti/19020.healthylifeyo.ru/PublisherApi.php on line 16
+[08-Jul-2021 14:40:05 Europe/Moscow] PHP Parse error:  syntax error, unexpected '(', expecting ',' or ';' in /home/lhrkhjti/19020.healthylifeyo.ru/PublisherApi.php on line 16
+[08-Jul-2021 14:40:44 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$subdom' (T_VARIABLE) in /home/lhrkhjti/19020.healthylifeyo.ru/PublisherApi.php on line 46
+[10-Jul-2021 13:54:24 Europe/Moscow] PHP Warning:  Illegal string offset 'px' in /home/lhrkhjti/19144.healthylifeyo.ru/success.php on line 2
+[10-Jul-2021 13:57:20 Europe/Moscow] PHP Warning:  Illegal string offset 'px' in /home/lhrkhjti/19144.healthylifeyo.ru/success.php on line 2
+[10-Jul-2021 14:02:54 Europe/Moscow] PHP Warning:  Illegal string offset 'px' in /home/lhrkhjti/19144.healthylifeyo.ru/success.php on line 2
+[10-Jul-2021 14:03:51 Europe/Moscow] PHP Warning:  Illegal string offset 'px' in /home/lhrkhjti/19144.healthylifeyo.ru/success.php on line 2
+[10-Jul-2021 14:04:21 Europe/Moscow] PHP Warning:  Illegal string offset 'px' in /home/lhrkhjti/19144.healthylifeyo.ru/success.php on line 2
+[10-Jul-2021 14:05:00 Europe/Moscow] PHP Warning:  Illegal string offset 'px' in /home/lhrkhjti/19144.healthylifeyo.ru/success.php on line 2
+[10-Jul-2021 14:05:26 Europe/Moscow] PHP Warning:  Illegal string offset 'px' in /home/lhrkhjti/19144.healthylifeyo.ru/success.php on line 2
+[10-Jul-2021 14:10:17 Europe/Moscow] PHP Warning:  Illegal string offset 'px' in /home/lhrkhjti/19144.healthylifeyo.ru/success.php on line 2
+[10-Jul-2021 14:10:27 Europe/Moscow] PHP Warning:  Illegal string offset 'px' in /home/lhrkhjti/19144.healthylifeyo.ru/success.php on line 2
+[10-Jul-2021 14:10:37 Europe/Moscow] PHP Warning:  Illegal string offset 'px' in /home/lhrkhjti/19144.healthylifeyo.ru/success.php on line 2
+[10-Jul-2021 14:14:01 Europe/Moscow] PHP Warning:  Illegal string offset 'px' in /home/lhrkhjti/19144.healthylifeyo.ru/success.php on line 2
+[10-Jul-2021 14:14:34 Europe/Moscow] PHP Warning:  Illegal string offset 'px' in /home/lhrkhjti/19144.healthylifeyo.ru/success.php on line 2
+[10-Jul-2021 22:21:06 Europe/Moscow] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/lhrkhjti/19147.healthylifeyo.ru/PublisherApi.php on line 13
+[10-Jul-2021 22:22:00 Europe/Moscow] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/lhrkhjti/19147.healthylifeyo.ru/PublisherApi.php on line 13
+[10-Jul-2021 22:22:01 Europe/Moscow] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/lhrkhjti/19147.healthylifeyo.ru/PublisherApi.php on line 13
+[10-Jul-2021 22:22:02 Europe/Moscow] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/lhrkhjti/19147.healthylifeyo.ru/PublisherApi.php on line 13
+[10-Jul-2021 22:23:10 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$subdom' (T_VARIABLE) in /home/lhrkhjti/19147.healthylifeyo.ru/PublisherApi.php on line 53
+[10-Jul-2021 22:23:28 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/lhrkhjti/19147.healthylifeyo.ru/PublisherApi.php on line 15
+[10-Jul-2021 22:23:29 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/lhrkhjti/19147.healthylifeyo.ru/PublisherApi.php on line 15
+[10-Jul-2021 22:23:30 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/lhrkhjti/19147.healthylifeyo.ru/PublisherApi.php on line 15
+[10-Jul-2021 22:24:13 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$subdom' (T_VARIABLE) in /home/lhrkhjti/19147.healthylifeyo.ru/PublisherApi.php on line 53
+[10-Jul-2021 22:24:28 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$subdom' (T_VARIABLE), expecting function (T_FUNCTION) in /home/lhrkhjti/19147.healthylifeyo.ru/PublisherApi.php on line 19
+[10-Jul-2021 22:24:29 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$subdom' (T_VARIABLE), expecting function (T_FUNCTION) in /home/lhrkhjti/19147.healthylifeyo.ru/PublisherApi.php on line 19
+[10-Jul-2021 22:25:04 Europe/Moscow] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) in /home/lhrkhjti/19147.healthylifeyo.ru/PublisherApi.php on line 19
+[10-Jul-2021 22:25:05 Europe/Moscow] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) in /home/lhrkhjti/19147.healthylifeyo.ru/PublisherApi.php on line 19
+[10-Jul-2021 22:25:16 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$subdom' (T_VARIABLE) in /home/lhrkhjti/19147.healthylifeyo.ru/PublisherApi.php on line 54
+[10-Jul-2021 22:25:17 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$subdom' (T_VARIABLE) in /home/lhrkhjti/19147.healthylifeyo.ru/PublisherApi.php on line 54
+[10-Jul-2021 22:29:41 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$subdom' (T_VARIABLE) in /home/lhrkhjti/19147.healthylifeyo.ru/PublisherApi.php on line 54
+[10-Jul-2021 22:29:49 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$subdom' (T_VARIABLE) in /home/lhrkhjti/19147.healthylifeyo.ru/PublisherApi.php on line 54
+[10-Jul-2021 22:37:14 Europe/Moscow] PHP Warning:  Illegal string offset 'px' in /home/lhrkhjti/19147.healthylifeyo.ru/success.php on line 2
+[10-Jul-2021 22:37:14 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$subdom' (T_VARIABLE) in /home/lhrkhjti/19147.healthylifeyo.ru/PublisherApi.php on line 54
+[10-Jul-2021 22:38:26 Europe/Moscow] PHP Warning:  Illegal string offset 'px' in /home/lhrkhjti/19147.healthylifeyo.ru/success.php on line 2
+[10-Jul-2021 22:39:10 Europe/Moscow] PHP Warning:  Illegal string offset 'px' in /home/lhrkhjti/19147.healthylifeyo.ru/success.php on line 2
