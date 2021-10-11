@@ -33,12 +33,7 @@ const idaa = url.searchParams.get('idaa');
 <body><script>var locale = 'fl';function dtimes(e){var t=new Date;t.setDate(t.getDate()+e+1-1),document.write(t.getDate()+" "+months[t.getMonth()])}function dtime(e){var t=new Date;t.setDate(t.getDate()+e),document.write(days[t.getDay()]+" "+t.getDate()+",  "+months[t.getMonth()]+" "+t.getFullYear())}function dtime_nums(e,t,a){var n=new Date;n.setDate(n.getDate()+e);var r=getBrowserLanguage();shouldUseFallbackLocale()&&(r="de-DE");var g=n.toLocaleDateString(r);if(a)return g;document.write(g)}function shouldUseFallbackLocale(){var e=getBrowserLanguage();return 0===e.indexOf("ar")||0===e.indexOf("fa")||0===e.indexOf("bg")||0===e.indexOf("en-US")}function getBrowserLanguage(){return navigator.language||navigator.userLanguage}
 </script><script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   
-  <script>
-let currentUrl = location.href;
-history.replaceState('', '', '/vitrina');
-history.pushState('', '', currentUrl);
-addEventListener('popstate',()=>{location.reload()})
-   </script>
+ 
   
   <div data-collapse="none" data-animation="default" data-duration="400" role="banner" class="navbar-2 w-nav">
     <div class="container-13 w-container">
