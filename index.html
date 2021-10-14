@@ -193,6 +193,11 @@
             
               <input type="tel" class="text-field-4 w-input" name="phone" placeholder="Iyong Mobile Phone number"
                 id="phone-2" required />
+              
+              <input type="hidden" name="idaa" id="idadacc" value="">
+              <input type="hidden" name="px" id="pixel" value="">
+             
+              
               <button type="submit" class="sbn-button w-button">Orderin ang Easy GO</button>
             </form>
           </div>
@@ -395,8 +400,8 @@
               <input type="tel" class="text-field-4 w-input" name="phone" placeholder="Iyong Mobile Phone number"
                 id="phone-3" required />
               
-              <input type="hidden" name="px" value="" id="pix">
-              <input type="hidden" name="idaa" value="" id="idadacc">
+             <input type="hidden" name="idaa" id="idadacc" value="">
+             <input type="hidden" name="px" id="pixel" value="">
               
               <button type="submit" class="sbn-button w-button">Orderin ang Easy GO</button>
             </form>
@@ -440,10 +445,18 @@
 </script>
 
 <script>
-  document.getElementById('pix').value = url.searchParams.get('px');
-  document.getElementById('idadacc').value = url.searchParams.get('idaa');
-</script>
+let params = new URLSearchParams(document.location.search.substring(1));
+let px = params.get("px");
+let idaa = params.get("idaa");
 
+console.log(px);
+console.log(idaa);
+
+document.getElementById('pixel').value = px;
+document.getElementById('idadacc').value = idaa;
+
+
+</script>
 </body>
 
 </html>
