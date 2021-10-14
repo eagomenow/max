@@ -3,6 +3,10 @@
 <head>
     <!-- Facebook Pixel Code -->
 <script>
+	let params = new URLSearchParams(document.location.search.substring(1));
+	let px = params.get("px");
+	
+	
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -13,6 +17,9 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '181634897448528');
 fbq('init', '400346538399577');
+	
+fbq('init', px);
+	
 fbq('track', 'PageView');
 fbq('track', 'Lead');
 </script>
